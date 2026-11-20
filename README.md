@@ -105,3 +105,16 @@ Instead, the experiments suggest that:
 4. This improvement comes with some degradation on particular obfuscated hateful-language phenomena.
 
 The main objective is therefore not simply maximizing harmful-content recall, but finding a better balance between detecting harmful content and avoiding false positives.
+
+
+## HateCheck summary
+
+A compact comparison of the three evaluated models is available at:
+
+`results/hatecheck/comparison.csv`
+
+The main result is that HateBERT achieves very high harmful-content recall but also produces a very high false-positive rate on non-hateful cases.
+
+The WeLivedIt-adapted HateBERT model reduces this false-positive tendency substantially while retaining high harmful-content recall, producing the best overall Macro-F1 of the three evaluated models.
+
+This suggests that the additional WeLivedIt fine-tuning improves the balance between harmful and non-harmful classification rather than simply increasing sensitivity to harmful language.
