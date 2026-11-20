@@ -1,0 +1,21 @@
+{
+  "n": 3728,
+  "accuracy": 0.6866952789699571,
+  "macro_f1": 0.46931013183687775,
+  "harm_precision": 0.6964235426640383,
+  "harm_recall": 0.9648849005072181,
+  "harm_f1": 0.8089630356558718,
+  "non_harm_accuracy": 0.07467811158798283,
+  "harm_accuracy": 0.9648849005072181,
+  "false_positive_rate": 0.9253218884120171,
+  "false_negative_rate": 0.035115099492781895,
+  "tn": 87,
+  "fp": 1078,
+  "fn": 90,
+  "tp": 2473,
+  "model_name": "bert_base",
+  "model_path": "runs/bert-base/model",
+  "threshold": 0.5,
+  "quick": false,
+  "functionalities": 29
+}

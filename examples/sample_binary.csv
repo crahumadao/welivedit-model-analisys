@@ -1,0 +1,5 @@
+id,text,label
+safe_1,"Thank you for sharing this.",0
+safe_2,"I disagree, but I respect your opinion.",0
+harm_1,"You are disgusting and nobody wants you here.",1
+harm_2,"I hope someone hurts you for saying that.",1

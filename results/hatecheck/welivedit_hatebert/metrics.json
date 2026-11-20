@@ -1,0 +1,21 @@
+{
+  "n": 3728,
+  "accuracy": 0.7339055793991416,
+  "macro_f1": 0.6098797626055162,
+  "harm_precision": 0.7404346495255586,
+  "harm_recall": 0.943815840811549,
+  "harm_f1": 0.8298456260720412,
+  "non_harm_accuracy": 0.2721030042918455,
+  "harm_accuracy": 0.943815840811549,
+  "false_positive_rate": 0.7278969957081545,
+  "false_negative_rate": 0.05618415918845104,
+  "tn": 317,
+  "fp": 848,
+  "fn": 144,
+  "tp": 2419,
+  "model_name": "welivedit_hatebert",
+  "model_path": "runs/final_hatebert_combined_802/model",
+  "threshold": 0.5,
+  "quick": false,
+  "functionalities": 29
+}

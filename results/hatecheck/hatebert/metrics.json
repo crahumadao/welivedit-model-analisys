@@ -1,0 +1,21 @@
+{
+  "n": 3728,
+  "accuracy": 0.7014484978540773,
+  "macro_f1": 0.46272258398844246,
+  "harm_precision": 0.6986301369863014,
+  "harm_recall": 0.9949278189621538,
+  "harm_f1": 0.8208594881699662,
+  "non_harm_accuracy": 0.055793991416309016,
+  "harm_accuracy": 0.9949278189621538,
+  "false_positive_rate": 0.944206008583691,
+  "false_negative_rate": 0.005072181037846274,
+  "tn": 65,
+  "fp": 1100,
+  "fn": 13,
+  "tp": 2550,
+  "model_name": "hatebert",
+  "model_path": "runs/hatebert/model",
+  "threshold": 0.5,
+  "quick": false,
+  "functionalities": 29
+}
